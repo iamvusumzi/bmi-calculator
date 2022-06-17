@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Comic+Neue:wght@300&family=Mr+Dafoe&family=Poppins:wght@200;300;500;900&family=Raleway:wght@400;702;800&family=Satisfy&family=Ubuntu:wght@500;700&display=swap");
+
+/* CSS Reset */
+body {
+    color: #45505b;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+.container {
+    background-color: green;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Poppins, sans-serif;
+}
+
+.calculator {
+    background-color: white;
+    max-width: 370px;
+    min-height: 360px;
+    padding: 10px;
+    filter: drop-shadow(5px 5px 10px black);
+}
+
+.calculator h1 {
+    color: #2dbe31;
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    text-align: center;
+}
+.calculator form {
+    /* padding: 0 20px; */
+}
+
+.calculator form .inputs {
+    margin: 20px;
+}
+
+.calculator form input {
+    width: 310px;
+    height: 45px;
+    padding: 0 10px;
+}
+
+.calculator form button {
+    font-size: 18px;
+    /* font-weight: 600; */
+    color: white;
+    border: none;
+    background-color: #2dbe31;
+    width: 150px;
+    height: 50px;
+    margin: 0 20px;
+}
+
+.calculator #output {
+    margin: 16px 20px;
+}
