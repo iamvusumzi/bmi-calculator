@@ -58,3 +58,18 @@ body {
 .calculator #output {
     margin: 16px 20px;
 }
+
+@media screen and (max-width: 420px) {
+    .container {
+        align-items: flex-start;
+    }
+
+    .calculator {
+        margin-top: 50px;
+        width: 80vw;
+    }
+
+    .calculator .inputs input {
+        width: 100%;
+    }
+}
